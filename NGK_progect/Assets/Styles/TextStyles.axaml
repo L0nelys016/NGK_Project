@@ -1,0 +1,89 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Design.PreviewWith>
+	  <StackPanel Orientation="Vertical" Spacing="5">
+
+		  <TextBlock Classes="BasicText">BasicText</TextBlock>
+		  <TextBlock Classes="Hint">Hint</TextBlock>
+		  <TextBlock Classes="RedError">RedError</TextBlock>
+
+		  <TextBox Classes="LogIn">login</TextBox>
+	  </StackPanel>
+  </Design.PreviewWith>
+
+	<Style Selector="TextBlock.BasicText">
+		<Setter Property="Foreground" Value="{StaticResource BlackGreyForegroundBrush}" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+	</Style>
+
+	<Style Selector="TextBlock.Hint">
+		<Setter Property="Foreground" Value="{StaticResource LightGreyForegroundBrush}" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+	</Style>
+
+	<Style Selector="TextBlock.RedError">
+		<Setter Property="Foreground" Value="{StaticResource RedErrorBrush}" />
+		<Setter Property="FontSize" Value="18" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+	</Style>
+
+	<Style Selector="TextBlock.Violet">
+		<Setter Property="Foreground" Value="{StaticResource VioletBrush}" />
+		<Setter Property="FontWeight" Value="Bold" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+	</Style>
+
+	<Style Selector="TextBox.LogIn">
+		<Setter Property="BorderThickness" Value="0" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="Foreground" Value="{StaticResource BlackGreyForegroundBrush}" />
+		<Setter Property="Background" Value="{StaticResource TransparentBrush}" />
+		<Setter Property="Padding" Value="0" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+		<Setter Property="VerticalContentAlignment" Value="Center" />
+		<Style Selector="^:focus">
+			<Setter Property="Foreground" Value="{StaticResource BlackGreyForegroundBrush}" />
+
+			<Style Selector="^ /template/ Border#PART_BorderElement">
+				<Setter Property="BorderThickness" Value="0" />
+				<Setter Property="Background" Value="{StaticResource TransparentBrush}" />
+			</Style>
+		</Style>
+
+		<Style Selector="^:pointerover">
+			<Style Selector="^ /template/ Border#PART_BorderElement">
+				<Setter Property="Background" Value="{StaticResource TransparentBrush}" />
+			</Style>
+		</Style>
+	</Style>
+
+	<Style Selector="TextBox.AddValueItemTable">
+		<Setter Property="BorderThickness" Value="0" />
+		<Setter Property="CornerRadius" Value="30" />
+		<Setter Property="FontSize" Value="20" />
+		<Setter Property="Foreground" Value="{StaticResource LightGreyForegroundBrush}" />
+		<Setter Property="Background" Value="{StaticResource WhiteVioletBrush}" />
+		<Setter Property="Padding" Value="10" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+		<Setter Property="HorizontalContentAlignment" Value="Center" />
+		<Setter Property="VerticalContentAlignment" Value="Center" />
+		<Style Selector="^:focus">
+			<Setter Property="Foreground" Value="{StaticResource LightGreyForegroundBrush}" />
+			<Setter Property="Background" Value="{StaticResource BackgroundItemBrash}" />
+
+			<Style Selector="^ /template/ Border#PART_BorderElement">
+				<Setter Property="BorderThickness" Value="0" />
+				<Setter Property="Background" Value="{StaticResource BackgroundItemBrash}" />
+			</Style>
+		</Style>
+
+		<Style Selector="^:pointerover">
+			<Style Selector="^ /template/ Border#PART_BorderElement">
+				<Setter Property="Background" Value="{StaticResource BackgroundItemBrash}" />
+			</Style>
+		</Style>
+	</Style>
+</Styles>

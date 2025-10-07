@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "A:\\Works\\NGK_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\colordictionary.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\colordictionary.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\borderstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\borderstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\ngk_progect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\ngk_progect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,58 +38,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "NGK_progect\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "NGK_progect\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T09:29:47.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthViewModel.cs",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\ViewModels\\AuthViewModel.cs",
-              "RelativeDocumentMoniker": "NGK_progect\\ViewModels\\AuthViewModel.cs",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\ViewModels\\AuthViewModel.cs",
-              "RelativeToolTip": "NGK_progect\\ViewModels\\AuthViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T09:29:36.167Z",
+              "Title": "ColorDictionary.axaml",
+              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "RelativeToolTip": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T10:10:43.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NGK_progect",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj",
-              "RelativeDocumentMoniker": "NGK_progect\\NGK_progect.csproj",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj",
-              "RelativeToolTip": "NGK_progect\\NGK_progect.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-07T09:26:15.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainView.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
-              "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\MainView.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
-              "RelativeToolTip": "NGK_progect\\Views\\Pages\\MainView.axaml",
+              "Title": "App.axaml",
+              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\App.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\App.axaml",
+              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\App.axaml",
+              "RelativeToolTip": "NGK_progect\\App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:25:25.868Z",
+              "WhenOpened": "2025-10-07T09:46:13.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TextStyles.axaml",
+              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "RelativeToolTip": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:45:58.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorderStyles.axaml",
+              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "RelativeToolTip": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:39:39.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthView.axaml",
               "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Views\\Pages\\AuthView.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\AuthView.axaml",

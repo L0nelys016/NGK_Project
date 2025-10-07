@@ -13,7 +13,18 @@
 		<TabControl Grid.Row="1" Margin="20">
 			<TabItem Header="Вход">
 				<StackPanel Spacing="10" Margin="10" HorizontalAlignment="Center">
-					<TextBox Watermark="Логин" MaxWidth="230" Text="{Binding Login}"/>
+					<Border BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+					    <TextBox 
+						    Classes="LogIn"
+						    Watermark="Логин" 
+						    MaxWidth="230"
+							Margin="10,0,35,0"
+						    Text="{Binding Login}"/>
+					</Border>
 
 					<StackPanel Orientation="Horizontal" Spacing="5">
 						<Border BorderBrush="Gray"
@@ -22,9 +33,11 @@
                                 Background="White"
                                 MaxWidth="230">
 							<Grid Width="230">
-								<TextBox x:Name="PasswordTextBox"
+								<TextBox
+									     Classes="LogIn"
+									     x:Name="PasswordTextBox"
                                          Watermark="Пароль" PasswordChar="*"
-                                         Margin="5,0,35,0"
+                                         Margin="10,0,35,0"
                                          BorderThickness="0"
                                          Background="Transparent"
 										 Text="{Binding Password}"/>
@@ -58,17 +71,42 @@
 
 			<TabItem Header="Регистрация">
 				<StackPanel Spacing="10" Margin="10" HorizontalAlignment="Center">
-					<TextBox Watermark="Логин" MaxWidth="230"/>
-					<TextBox Watermark="Email" MaxWidth="230"/>
+					<Border BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+						<TextBox
+						    Classes="LogIn"
+						    Watermark="Логин"
+						    MaxWidth="230"
+							Margin="10,0,35,0"
+						    Text="{Binding Login}"/>
+					</Border>
+					
+					<Border BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+						<TextBox
+						    Classes="LogIn"
+						    Watermark="Email"
+						    MaxWidth="230"
+							Margin="10,0,35,0"/>
+					</Border>
 
 					<StackPanel Orientation="Horizontal" Spacing="5">
-						<Border BorderBrush="Gray"
+						<Border 
+								BorderBrush="Gray"
                                 BorderThickness="1"
                                 CornerRadius="4"
                                 Background="White"
                                 MaxWidth="230">
 							<Grid Width="230">
-								<TextBox x:Name="RegPasswordTextBox"
+								<TextBox
+										 Classes="LogIn"
+										 x:Name="RegPasswordTextBox"
                                          Watermark="Пароль"
                                          PasswordChar="*"
                                          Margin="5,0,35,0"
@@ -81,6 +119,7 @@
                                         Background="Transparent"
                                         BorderThickness="0"
                                         HorizontalAlignment="Right"
+										Content="{Binding Password}"
                                         Margin="0,0,5,0"/>
 
 								<Button x:Name="RegHidePasswordButton"
@@ -94,7 +133,41 @@
 						</Border>
 					</StackPanel>
 
-					<TextBox Watermark="Повторите пароль" PasswordChar="*" MaxWidth="230"/>
+					<StackPanel Orientation="Horizontal" Spacing="5">
+						<Border
+								BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+							<Grid Width="230">
+								<TextBox
+										 Classes="LogIn"
+										 x:Name="RegConfimPasswordTextBox"
+                                         Watermark="Подтвердите пароль"
+                                         PasswordChar="*"
+                                         Margin="5,0,35,0"
+                                         BorderThickness="0"
+                                         Background="Transparent"/>
+
+								<Button x:Name="RegConfimShowPasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+
+								<Button x:Name="RegConfimHidePasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+							</Grid>
+						</Border>
+					</StackPanel>
 
 					<Button Content="Зарегистрироваться"  Width="170"
                             HorizontalAlignment="Center"

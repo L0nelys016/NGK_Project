@@ -1,0 +1,106 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:vm="using:NGK_progect.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="NGK_progect.Views.AuthView"
+			 x:DataType="vm:AuthViewModel">
+
+	<Grid RowDefinitions="Auto,*" 
+		  HorizontalAlignment="Center"
+		  VerticalAlignment="Center">
+		<TabControl Grid.Row="1" Margin="20">
+			<TabItem Header="Вход">
+				<StackPanel Spacing="10" Margin="10" HorizontalAlignment="Center">
+					<TextBox Watermark="Логин" MaxWidth="230" Text="{Binding Login}"/>
+
+					<StackPanel Orientation="Horizontal" Spacing="5">
+						<Border BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+							<Grid Width="230">
+								<TextBox x:Name="PasswordTextBox"
+                                         Watermark="Пароль" PasswordChar="*"
+                                         Margin="5,0,35,0"
+                                         BorderThickness="0"
+                                         Background="Transparent"
+										 Text="{Binding Password}"/>
+
+								<Button x:Name="ShowPasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+
+								<Button x:Name="HidePasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+							</Grid>
+						</Border>
+					</StackPanel>
+
+					<Button Content="Войти"
+                            Width="60"
+                            HorizontalAlignment="Center"
+                            HorizontalContentAlignment="Center"
+							Command="{Binding LoginAndPasswordVerificationCommand}"/>
+				</StackPanel>
+			</TabItem>
+
+			<TabItem Header="Регистрация">
+				<StackPanel Spacing="10" Margin="10" HorizontalAlignment="Center">
+					<TextBox Watermark="Логин" MaxWidth="230"/>
+					<TextBox Watermark="Email" MaxWidth="230"/>
+
+					<StackPanel Orientation="Horizontal" Spacing="5">
+						<Border BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="4"
+                                Background="White"
+                                MaxWidth="230">
+							<Grid Width="230">
+								<TextBox x:Name="RegPasswordTextBox"
+                                         Watermark="Пароль"
+                                         PasswordChar="*"
+                                         Margin="5,0,35,0"
+                                         BorderThickness="0"
+                                         Background="Transparent"/>
+
+								<Button x:Name="RegShowPasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+
+								<Button x:Name="RegHidePasswordButton"
+                                        Width="30"
+                                        Height="30"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        HorizontalAlignment="Right"
+                                        Margin="0,0,5,0"/>
+							</Grid>
+						</Border>
+					</StackPanel>
+
+					<TextBox Watermark="Повторите пароль" PasswordChar="*" MaxWidth="230"/>
+
+					<Button Content="Зарегистрироваться"  Width="170"
+                            HorizontalAlignment="Center"
+                            HorizontalContentAlignment="Center"/>
+				</StackPanel>
+			</TabItem>
+		</TabControl>
+	</Grid>
+</UserControl>

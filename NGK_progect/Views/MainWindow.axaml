@@ -9,10 +9,11 @@
         x:Class="NGK_progect.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="NGK_progect">
+        Title="NGK_progect"
+		RequestedThemeVariant="Light">
 
 	<Window.DataContext>
-		<vm:MainWindowViewModel />
+		<vm:MainWindowViewModel/>
 	</Window.DataContext>
 	    
 	<ContentControl Content="{Binding CurrentViewModel}"/>

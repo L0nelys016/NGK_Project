@@ -1,11 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using Microsoft.EntityFrameworkCore;
 using NGK_progect.ViewModels.Base;
-using System;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Threading.Tasks;
 
 namespace NGK_progect.ViewModels
 {
@@ -28,6 +22,6 @@ namespace NGK_progect.ViewModels
         {
         }
 
-      
+
     }
 }

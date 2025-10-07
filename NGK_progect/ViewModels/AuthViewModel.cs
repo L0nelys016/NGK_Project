@@ -1,11 +1,8 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.Linq;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using NGK_progect.Models;
 using NGK_progect.ViewModels.Base;
-using System.Linq;
-using Avalonia;
-using Xceed.Wpf.Toolkit;
-using System;
 
 namespace NGK_progect.ViewModels
 {

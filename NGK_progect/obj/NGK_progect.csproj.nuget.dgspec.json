@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ВолковАА\\source\\repos\\NGK_progect\\NGK_progect\\NGK_progect.csproj": {}
+    "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ВолковАА\\source\\repos\\NGK_progect\\NGK_progect\\NGK_progect.csproj": {
+    "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ВолковАА\\source\\repos\\NGK_progect\\NGK_progect\\NGK_progect.csproj",
+        "projectUniqueName": "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj",
         "projectName": "NGK_progect",
-        "projectPath": "C:\\Users\\ВолковАА\\source\\repos\\NGK_progect\\NGK_progect\\NGK_progect.csproj",
-        "packagesPath": "C:\\Users\\ВолковАА\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ВолковАА\\source\\repos\\NGK_progect\\NGK_progect\\obj\\",
+        "projectPath": "A:\\Works\\NGK_Project\\NGK_progect\\NGK_progect.csproj",
+        "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
+        "outputPath": "A:\\Works\\NGK_Project\\NGK_progect\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ВолковАА\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,16 +44,12 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Avalonia": {
-              "target": "Package",
-              "version": "[11.3.4, )"
-            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[11.3.4, )"
@@ -73,18 +69,6 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"
-            },
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "Extended.Wpf.Toolkit": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "MessageBox.Avalonia": {
-              "target": "Package",
-              "version": "[3.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -127,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "A:\\Works\\NGK_Project\\",
+  "WorkspaceRootPath": "C:\\ReposVolkov\\NGK_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\colordictionary.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\assets\\styles\\colordictionary.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\colordictionary.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\assets\\styles\\borderstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\assets\\styles\\borderstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\borderstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\assets\\styles\\textstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|a:\\works\\ngk_project\\ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +38,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthViewModel.cs",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\ViewModels\\AuthViewModel.cs",
+              "RelativeDocumentMoniker": "NGK_progect\\ViewModels\\AuthViewModel.cs",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\ViewModels\\AuthViewModel.cs",
+              "RelativeToolTip": "NGK_progect\\ViewModels\\AuthViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:52:48.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthView.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\AuthView.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\AuthView.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\AuthView.axaml",
+              "RelativeToolTip": "NGK_progect\\Views\\Pages\\AuthView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-07T09:25:19.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainView.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
+              "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\MainView.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
+              "RelativeToolTip": "NGK_progect\\Views\\Pages\\MainView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-09T08:52:38.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ColorDictionary.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T10:10:43.661Z",
@@ -50,23 +91,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "App.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\App.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\App.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\App.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\App.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\App.axaml",
               "RelativeToolTip": "NGK_progect\\App.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:46:13.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T09:46:13.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "TextStyles.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T09:45:58.844Z",
@@ -74,26 +114,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BorderStyles.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-07T09:39:39.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthView.axaml",
-              "DocumentMoniker": "A:\\Works\\NGK_Project\\NGK_progect\\Views\\Pages\\AuthView.axaml",
-              "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\AuthView.axaml",
-              "ToolTip": "A:\\Works\\NGK_Project\\NGK_progect\\Views\\Pages\\AuthView.axaml",
-              "RelativeToolTip": "NGK_progect\\Views\\Pages\\AuthView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:25:19.549Z",
               "EditorCaption": ""
             }
           ]

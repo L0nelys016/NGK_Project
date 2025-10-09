@@ -6,6 +6,10 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="NGK_progect.Views.MainView"
              x:DataType="vm:MainViewModel">
-	
-	
+
+	<TextBlock
+		Text="Добро пожаловать, Сынок!"
+		VerticalAlignment="Center"
+		HorizontalAlignment="Center"
+		FontSize="28"/>
 </UserControl>

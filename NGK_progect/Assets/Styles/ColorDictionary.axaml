@@ -26,5 +26,6 @@
 	<Color x:Key="DirtyRedBackBrash">#FFDFDF</Color>
 	<Color x:Key="SeaBlueBrash">#356898</Color>
 	<Color x:Key="SeaBlueBackBrash">#DEE6FF</Color>
+	<Color x:Key="SkyBlueBrash">#42AAFF</Color>
 	<Color x:Key="LightOliveTransparentBrush">#14636B14</Color>
 </ResourceDictionary>

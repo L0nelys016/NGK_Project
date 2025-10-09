@@ -1,15 +1,15 @@
 <Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <Design.PreviewWith>
-	  <StackPanel Orientation="Vertical" Spacing="5">
+	<Design.PreviewWith>
+		<StackPanel Orientation="Vertical" Spacing="5">
 
-		  <TextBlock Classes="BasicText">BasicText</TextBlock>
-		  <TextBlock Classes="Hint">Hint</TextBlock>
-		  <TextBlock Classes="RedError">RedError</TextBlock>
+			<TextBlock Classes="BasicText">BasicText</TextBlock>
+			<TextBlock Classes="Hint">Hint</TextBlock>
+			<TextBlock Classes="RedError">RedError</TextBlock>
 
-		  <TextBox Classes="LogIn">login</TextBox>
-	  </StackPanel>
-  </Design.PreviewWith>
+			<TextBox Classes="LogIn">login</TextBox>
+		</StackPanel>
+	</Design.PreviewWith>
 
 	<Style Selector="TextBlock.BasicText">
 		<Setter Property="Foreground" Value="{StaticResource BlackGreyForegroundBrush}" />
@@ -25,7 +25,7 @@
 
 	<Style Selector="TextBlock.RedError">
 		<Setter Property="Foreground" Value="{StaticResource RedErrorBrush}" />
-		<Setter Property="FontSize" Value="18" />
+		<Setter Property="FontSize" Value="16" />
 		<Setter Property="VerticalAlignment" Value="Center" />
 	</Style>
 

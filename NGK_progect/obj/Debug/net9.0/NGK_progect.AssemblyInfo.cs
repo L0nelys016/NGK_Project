@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NGK_progect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611d52bf144ff31eeb56321c1ed51c8ce0e30ff9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12fa33ebbe3497ae4a294ce406f23f0941e612f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("NGK_progect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NGK_progect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

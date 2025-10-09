@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\authview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|c:\\reposvolkov\\ngk_project\\ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A36D7597-8E4E-4C98-8C50-B4B88BF7B4DF}|NGK_progect\\NGK_progect.csproj|solutionrelative:ngk_progect\\views\\pages\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -38,8 +50,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "NGK_progect\\Models\\Login.cs",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Login.cs",
+              "RelativeToolTip": "NGK_progect\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:52:07.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "NGK_progect\\Models\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "NGK_progect\\Models\\Dto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:37:52.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "NGK_progect\\Models\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Models\\Dto\\UserDto.cs",
+              "RelativeToolTip": "NGK_progect\\Models\\Dto\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T09:37:42.453Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,7 +99,7 @@
               "RelativeDocumentMoniker": "NGK_progect\\ViewModels\\AuthViewModel.cs",
               "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\ViewModels\\AuthViewModel.cs",
               "RelativeToolTip": "NGK_progect\\ViewModels\\AuthViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwIQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T08:52:48.223Z",
               "EditorCaption": ""
@@ -67,31 +118,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainView.axaml",
               "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Views\\Pages\\MainView.axaml",
               "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Views\\Pages\\MainView.axaml",
               "RelativeToolTip": "NGK_progect\\Views\\Pages\\MainView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-09T08:52:38.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:52:38.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ColorDictionary.axaml",
               "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\ColorDictionary.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T10:10:43.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T10:10:43.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\App.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\App.axaml",
@@ -102,27 +151,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TextStyles.axaml",
               "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\TextStyles.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:45:58.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T09:45:58.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "BorderStyles.axaml",
               "DocumentMoniker": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "RelativeDocumentMoniker": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "ToolTip": "C:\\ReposVolkov\\NGK_Project\\NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "RelativeToolTip": "NGK_progect\\Assets\\Styles\\BorderStyles.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-07T09:39:39.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T09:39:39.283Z"
             }
           ]
         }

@@ -11,6 +11,16 @@ namespace NGK_progect.ViewModels
     {
         private const string ERROR_MESSAGE_AUTH = "Неверный логин или пароль";
 
+        private const string EMPTY_FIELDS = "Заполните все поля для регистрации";
+
+        private const string BUSY_EMAIL = "Пользователь с таким email уже существует";
+
+        private const string BUSY_LOGIN = "Пользователь с таким логином уже существует";
+
+        private const string PASSWORD_DONT_MATCH = "Пароли не совпадают";
+
+        private const string REG_ERROR = "Не удалось зарегестрироваться";
+
         private readonly MainWindowViewModel _mainWindowViewModel;
 
         private readonly VolkovContext _dbContext = new VolkovContext();
@@ -94,28 +104,28 @@ namespace NGK_progect.ViewModels
                     string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Login) ||
                     string.IsNullOrEmpty(Password))
                 {
-                    ErrorMessageSignUp = "Заполните все поля для регистрации";
+                    ErrorMessageSignUp = EMPTY_FIELDS;
                     IsEnableButtonSignUp = true;
                     return;
                 }
 
                 if (await _dbContext.Users.AnyAsync(u => u.Email == Email))
                 {
-                    ErrorMessageSignUp = "Пользователь с таким email уже существует";
+                    ErrorMessageSignUp = BUSY_EMAIL;
                     IsEnableButtonSignUp = true;
                     return;
                 }
 
                 if (await _dbContext.Logins.AnyAsync(l => l.Username == Login))
                 {
-                    ErrorMessageSignUp = "Пользователь с таким логином уже существует";
+                    ErrorMessageSignUp = BUSY_LOGIN;
                     IsEnableButtonSignUp = true;
                     return;
                 }
 
                 if (Password != PasswordConfim)
                 {
-                    ErrorMessageSignUp = "Пароли не совпадают";
+                    ErrorMessageSignUp = PASSWORD_DONT_MATCH;
                     IsEnableButtonSignUp = true;
                     return;
                 }
@@ -140,17 +150,11 @@ namespace NGK_progect.ViewModels
                 await _dbContext.Users.AddAsync(user);
                 await _dbContext.SaveChangesAsync();
 
-                FirstName = null;
-                LastName = null;
-                Email = null;
-                Login = null;
-                Password = null;
-
                 _mainWindowViewModel.CurrentViewModel = new MainViewModel();
             }
             catch
             {
-                ErrorMessageSignUp = "Не удалось зарегестрироваться";
+                ErrorMessageSignUp = REG_ERROR;
                 IsEnableButtonSignUp = true;
             }
         }

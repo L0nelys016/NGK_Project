@@ -7,9 +7,60 @@
              x:Class="NGK_progect.Views.MainView"
              x:DataType="vm:MainViewModel">
 
-	<TextBlock
-		Text="Добро пожаловать, Сынок!"
-		VerticalAlignment="Center"
-		HorizontalAlignment="Center"
-		FontSize="28"/>
+	<Grid RowDefinitions="Auto,*"
+          ColumnDefinitions="*,Auto">
+		<StackPanel Grid.Row="0"
+                    Grid.Column="0"
+                    Orientation="Horizontal"
+                    Margin="10"
+                    HorizontalAlignment="Stretch">
+			<Border BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="4"
+                    Background="White"
+                    Width="350">
+
+				<TextBox Classes="LogIn"
+                         Width="350"
+                         Watermark="Поиск задач..."
+                         Margin="10 0 0 0"
+                         VerticalAlignment="Center"/>
+			</Border>
+		</StackPanel>
+
+		<StackPanel Grid.Row="0"
+                    Grid.Column="1"
+                    Orientation="Horizontal"
+                    Margin="10"
+                    HorizontalAlignment="Right">
+
+			<Button CornerRadius="12"
+                            Background="{StaticResource SkyBlueBrash}"
+                            Content="Добавить дело"
+                            Width="140"
+                            Height="40"
+                            HorizontalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            HorizontalContentAlignment="Center"/>
+
+			<Button
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    Margin="10 0 0 0">
+				<PathIcon Data="m400 160.69c-132 0-239.31 107.31-239.31 239.31s107.31 239.31 239.31 239.31c132 0 239.31-107.31 239.31-239.31 0.003906-132-107.31-239.31-239.3-239.31zm130.48 384.41v-3.0234c0-39.801-31.738-94.211-77.586-119.4 18.641-15.113 30.73-38.289 30.73-64.488 0-45.848-37.281-83.129-83.129-83.129s-83.129 37.281-83.129 83.129c0 26.199 12.09 49.375 30.73 64.488-45.848 25.695-77.586 79.602-77.586 119.4v3.0234c-40.805-35.77-65.492-87.66-65.492-145.09 0-107.82 87.664-194.97 194.97-194.97 107.82 0 194.97 87.664 194.97 194.97 0.003906 57.434-24.684 109.32-64.484 145.09z"
+                       Width="32" Height="32"/>
+			</Button>
+		</StackPanel>
+
+		<Border Grid.Row="1"
+             Grid.Column="0"
+             BorderThickness="0,1,0,0"
+             BorderBrush="{StaticResource BlackBrush}"
+             Opacity="0.5"
+             Margin="10,5,10,0"/>
+
+		<ListBox Grid.Row="1" Grid.Column="0"
+                ItemsSource="{Binding Tasks}" />
+	</Grid>
 </UserControl>

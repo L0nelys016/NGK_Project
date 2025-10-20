@@ -72,12 +72,12 @@ namespace NGK_progect.ViewModels
         [RelayCommand]
         private async Task LoginAndPasswordVerification()
         {
-            Login? authUser = await _dbContext.Logins.FirstOrDefaultAsync(login => login.Username == Login && login.Password == Password);
+            Login? authUser = await _dbContext.Logins.Include(u => u.User).FirstOrDefaultAsync(login => login.Username == Login && login.Password == Password);
             IsEnableButtonSignIn = false;
 
-            if (authUser != null)
+            if (authUser != null && authUser.User != null)
             {
-                _mainWindowViewModel.CurrentViewModel = new MainViewModel();
+                _mainWindowViewModel.CurrentViewModel = new MainViewModel(authUser.User.UserId);
             }
             else
             {
@@ -150,7 +150,7 @@ namespace NGK_progect.ViewModels
                 await _dbContext.Users.AddAsync(user);
                 await _dbContext.SaveChangesAsync();
 
-                _mainWindowViewModel.CurrentViewModel = new MainViewModel();
+                _mainWindowViewModel.CurrentViewModel = new MainViewModel(user.UserId);
             }
             catch
             {

@@ -8,7 +8,7 @@ namespace NGK_progect.ViewModels.Base
     {
 
         [ObservableProperty]
-        ViewModelBase _currentViewModel;
+        private ViewModelBase _currentViewModel;
 
         public MainWindowViewModel()
         {

@@ -16,4 +16,6 @@ public partial class User
     public int? LoginId { get; set; }
 
     public virtual Login? Login { get; set; }
+
+    public virtual ICollection<Tasks> Tasks { get; set; } = new List<Tasks>();
 }
